@@ -1,0 +1,19 @@
+{
+    "name": "filadelfia/individual",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rosca Filadelfia",
+            "email": "rosca.filadelfia@elev.cihcahul.md"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "illuminate/database": "^10.37"
+    }
+}
